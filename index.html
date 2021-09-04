@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FizzBuzz | Loop</title>
+  <link rel="stylesheet" href="css/bootstrap5.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-success">
+
+  <div class="container">
+    <h1 class="text-center text-white mt-5 mb-3">Nechta Fizz, nechta Buzz va nechta FizzBuzz?</h1>
+
+    <form class="js-fizzbuzz-form" action="https://echo.htmlacademy.ru" method="POST">
+      <div class="input-group">
+        <input class="form-control js-fizzbuzz-form-input" type="number" name="number" min="0" placeholder="Son kiriting: " aria-label="Son" required>
+        <button class="btn btn-warning" type="submit">Natijani ko'rsat</button>
+      </div>
+    </form>
+
+    <hr>
+
+    <section class="js-results">
+      <h2 class="visually-hidden">Natijalar</h2>
+      <div class="row">
+        <section class="col-md-4">
+          <h3 class="text-white">Fizzlar soni: <span class="js-fizz-result"></span> ta</h3>
+          <p class="text-warning js-fizz-numbers"></p>
+        </section>
+        <section class="col-md-4">
+          <h3 class="text-white">Buzzlar soni: <span class="js-buzz-result"></span> ta</h3>
+          <p class="text-warning js-buzz-numbers"></p>
+        </section>
+        <section class="col-md-4">
+          <h3 class="text-white">FizzBuzzlar soni: <span class="js-fizzbuzz-result"></span> ta</h3>
+          <p class="text-warning js-fizzbuzz-numbers"></p>
+        </section>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/bootstrap5.bundle.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
